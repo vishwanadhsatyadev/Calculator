@@ -1,0 +1,24 @@
+From a790882e8d623dadb559d21a08ad108ed0015df6 Mon Sep 17 00:00:00 2001
+From: vishwanadhsatyadev <vishwanadhpothuraju@gmail.com>
+Date: Fri, 17 May 2024 10:56:49 +0530
+Subject: [PATCH] Added example class
+
+---
+ src/Example.java | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 src/Example.java
+
+diff --git a/src/Example.java b/src/Example.java
+new file mode 100644
+index 0000000..ae043c5
+--- /dev/null
++++ b/src/Example.java
+@@ -0,0 +1,5 @@
++public class Example {
++    public String Print(){
++        return "Example";
++    }
++}
+-- 
+2.45.0.windows.1
+
